@@ -38,7 +38,7 @@
   * Add a new request. Click the (```+```) button and create a new request.
   * To search for an info into the database for:
     * TO SHOW ALL: Select ```GET``` then paste ```http://localhost:3001/api/(EDIT THIS)/``` into the search bar then click ```Send```. [WALKTHROUGH VIDEO HERE](https://drive.google.com/file/d/1qFiViR03ctoPUptb8DWz2bcgzocdGFoQ/view)
-      * ```(EDIT THIS)``` is equal to ```categories```, ```tags```, or ```products```. 
+      * ```(EDIT THIS)``` could be either ```categories```, ```tags```, or ```products```. 
 
     * TO SHOW ONE: Select ```GET``` then paste ```http://localhost:3001/api/(EDIT THIS)/(ID HERE)``` into the search bar then click ```Send```. [WALKTHROUGH VIDEO HERE](https://drive.google.com/file/d/1VLITeq1Bs6UtUJhGfG_0dERtdjoR-f7Q/view)
       * ```(ID HERE)``` is equal to a specific ```ID```. 
