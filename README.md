@@ -71,6 +71,6 @@
   ---
   ## Questions?
   _Contact me:_
-  _[@daejo](github.com/daejo)_  
+  _[@daejo](https://github.com/daejo)_  
   _[https://github.com/daejo/ecommerce-backend](https://github.com/daejo/ecommerce-backend)_  
   
