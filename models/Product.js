@@ -6,7 +6,6 @@ class Product extends Model {}
 // set up fields and rules for Product model
 Product.init(
   {
-    // define columns
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -15,17 +14,17 @@ Product.init(
     },
     // product name query 
     product_name: {
-      types: DataTypes.STRING,
+      type: DataTypes.STRING,
       allowNull: false
     },
     // price query 
     price: {
-      types: DataTypes.DECIMAL,
+      type: DataTypes.DECIMAL,
       allowNull: false
     },
     // stock query 
     stock: {
-      types: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
       validate: {
@@ -34,7 +33,7 @@ Product.init(
     },
     // category id query 
     category_id: {
-      types: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       references: {
         model: 'category',
         key: 'id'
