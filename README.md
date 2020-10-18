@@ -36,18 +36,18 @@
   * Add a new request. CLick the (```+```) button and create a new request.
   * To search for an info into the database for:
     * TO SHOW ALL: Select ```GET``` then paste ```http://localhost:3001/api/(EDIT THIS)/``` into the search bar then click ```Send```.
-      * ```(EDIT THIS)``` is equal to ```categories```, ```tags```, or ```products```.
+      * ```(EDIT THIS)``` is equal to ```categories```, ```tags```, or ```products```. [WALKTHROUGH VIDEO HERE](https://drive.google.com/file/d/1qFiViR03ctoPUptb8DWz2bcgzocdGFoQ/view)
 
     * TO SHOW ONE: Select ```GET``` then paste ```http://localhost:3001/api/(EDIT THIS)/(ID HERE)``` into the search bar then click ```Send```.
-      * ```(ID HERE)``` is equal to a specific ```ID```.
+      * ```(ID HERE)``` is equal to a specific ```ID```. [WALKTHROUGH VIDEO HERE](https://drive.google.com/file/d/1VLITeq1Bs6UtUJhGfG_0dERtdjoR-f7Q/view)
     
     * TO CREATE ONE: Select ```POST``` then paste ```http://localhost:3001/api/(EDIT THIS)/``` into the search bar then
-    change ```BODY``` into ```JSON``` then type in the info you are adding then click ```Send```.
+    change ```BODY``` into ```JSON``` then type in the info you are adding then click ```Send```. [WALKTHROUGH VIDEO HERE](https://drive.google.com/file/d/1xiNw4V9DCGildlFypkWP1Bm92NWC935p/view)
 
     * TO EDIT ONE: Select ```PUT``` then paste ```http://localhost:3001/api/(EDIT THIS)/(ID HERE)``` into the search bar then
-    change ```BODY``` into ```JSON``` then type in the info you are adding then click ```Send```.
+    change ```BODY``` into ```JSON``` then type in the info you are adding then click ```Send```. [WALKTHORUGH VIDEO HERE](https://drive.google.com/file/d/1IMl2ovPqDL9V4yNqxGk4WoHKzTJnUUQp/view)
 
-    * TO DELETE ONE: Select ```PUT``` then paste ```http://localhost:3001/api/(EDIT THIS)/(ID HERE)``` into the search bar then click ```Send```.
+    * TO DELETE ONE: Select ```PUT``` then paste ```http://localhost:3001/api/(EDIT THIS)/(ID HERE)``` into the search bar then click ```Send```. [WALKTHROUGH VIDEO HERE](https://drive.google.com/file/d/1f3-8ool1d07oOGhFRew_UFFkEqbzNDBA/view)
 
   ## Packages
     dotenv
