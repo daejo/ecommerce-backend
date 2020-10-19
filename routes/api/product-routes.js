@@ -32,16 +32,16 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   // find a single product by its `id`
   Product.findOne({
-    where: {
-      id: req.params.id
-    },
     include: [
       Category,
       {
         model: Tag,
         through: ProductTag
       }
-    ]
+    ],
+    where: {
+      id: req.params.id
+    }
   })
     .then(dbProductData => {
       if (!dbProductData) {
